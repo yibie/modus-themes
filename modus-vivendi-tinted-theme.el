@@ -155,6 +155,7 @@ which corresponds to a minimum contrast in relative luminance of
       (bg-hl-line          "#4F726C")
       (bg-region           "#555a66")
       (fg-region           "#ffffff")
+      (fg-comment          "#486f7a")
 
       (bg-char-0 "#0050af")
       (bg-char-1 "#7f1f7f")
@@ -241,7 +242,7 @@ which corresponds to a minimum contrast in relative luminance of
 ;;;; Code mappings
 
       (builtin magenta-warmer)
-      (comment red-faint)
+      (comment fg-comment)
       (constant blue-cooler)
       (docstring cyan-faint)
       (docmarkup magenta-faint)
