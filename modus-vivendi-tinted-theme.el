@@ -82,7 +82,7 @@ which corresponds to a minimum contrast in relative luminance of
       (yellow-warmer   "#fec43f")
       (yellow-cooler   "#dfaf7a")
       (yellow-faint    "#d2b580")
-      (yellow-intense  "#F7C242")
+      (yellow-intense  "#ffe252")
       (blue            "#2fafff")
       (blue-warmer     "#79a8ff")
       (blue-cooler     "#00bcff")
@@ -220,7 +220,7 @@ which corresponds to a minimum contrast in relative luminance of
       (fringe bg-dim)
       (cursor magenta-warmer)
 
-      (keybind blue-cooler)
+      (keybind yellow-intense)
       (name magenta)
       (identifier yellow-faint)
 
