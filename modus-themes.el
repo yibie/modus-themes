@@ -2272,7 +2272,7 @@ FG and BG are the main colors."
 ;;;;; display-fill-column-indicator-mode
     `(fill-column-indicator ((,c :height 1 :background ,bg-active :foreground ,bg-active)))
 ;;;;; doom-modeline
-    `(doom-modeline-bar ((,c :background ,blue)))
+    `(doom-modeline-bar ((,c :background ,yellow-intense)))
     `(doom-modeline-bar-inactive ((,c :background ,border)))
     `(doom-modeline-battery-charging ((,c :foreground ,modeline-info)))
     `(doom-modeline-battery-critical ((,c :underline t :foreground ,modeline-err)))
