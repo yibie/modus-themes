@@ -154,7 +154,7 @@ which corresponds to a minimum contrast in relative luminance of
       (bg-completion       "#202b2e")
       (bg-hover            "#45605e")
       (bg-hover-secondary  "#aa759f")
-      (bg-hl-line          "#1e2a2d")
+      (bg-hl-line          "#23884f")
       (bg-region           "#1e2a2d")
       (fg-region           fg-main)
       (fg-comment          "#486f7a")
