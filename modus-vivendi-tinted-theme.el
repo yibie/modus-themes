@@ -336,7 +336,7 @@ which corresponds to a minimum contrast in relative luminance of
 
 ;;;; Prompt mappings
 
-      (fg-prompt cyan-cooler)
+      (fg-prompt fg-main)
       (bg-prompt unspecified)
       (bg-space-err bg-red-intense)
 
