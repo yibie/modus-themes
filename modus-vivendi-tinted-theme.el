@@ -63,7 +63,7 @@ which corresponds to a minimum contrast in relative luminance of
       (fg-dim           "#989898")
       (fg-alt           "#c6daff")
       (bg-active        "#1d282a")
-      (bg-inactive      "#192324")
+      (bg-inactive      "#1f292b")
       (border           "#376751")
 
 ;;; Common accent foregrounds
