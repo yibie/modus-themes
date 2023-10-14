@@ -3767,7 +3767,7 @@ FG and BG are the main colors."
     `(telega-entity-type-pre ((,c :inherit modus-themes-prose-code)))
     `(telega-entity-type-spoiler ((,c :background ,fg-main :foreground ,fg-main)))
     `(telega-msg-heading ((,c :background ,bg-inactive)))
-    `(telega-msg-self-title ((,c :inherit bold :foreground ,yellow-kuchiba)))
+    `(telega-msg-self-title ((,c :inherit bold :foreground ,yellow-cooler)))
     `(telega-root-heading ((,c :background ,bg-inactive)))
     `(telega-secret-title ((,c :foreground ,magenta-warmer)))
     `(telega-unmuted-count ((,c :foreground ,blue-cooler)))
