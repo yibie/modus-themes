@@ -3385,7 +3385,7 @@ FG and BG are the main colors."
     `(org-modern-priority ((,c :inherit (org-modern-label org-priority) :background ,bg-dim)))
     `(org-modern-statistics ((,c :inherit org-modern-label :background ,bg-dim)))
     `(org-modern-tag ((,c :inherit (org-modern-label org-tag) :background ,bg-dim)))
-    `(org-modern-time-active ((,c :inherit (ef-themes-fixed-pitch org-modern-label) :background ,bg-active :foreground ,fg-intense)))
+    `(org-modern-time-active ((,c :inherit (ef-themes-fixed-pitch org-modern-label) :background ,bg-active :foreground ,fg-dim)))
     `(org-modern-time-inactive ((,c :inherit (org-modern-label org-modern-date-inactive))))
     `(org-modern-todo ((,c :inherit org-modern-label :background ,red-warmer :foreground ,err)))
 ;;;;; org-journal
