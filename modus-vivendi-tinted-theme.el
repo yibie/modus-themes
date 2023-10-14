@@ -298,7 +298,7 @@ which corresponds to a minimum contrast in relative luminance of
       (fg-line-number-inactive fg-dim)
       (fg-line-number-active fg-main)
       (bg-line-number-inactive bg-dim)
-      (bg-line-number-active bg-active)
+      (bg-line-number-active bg-main)
 
 ;;;; Link mappings
 
