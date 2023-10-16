@@ -175,7 +175,7 @@ which corresponds to a minimum contrast in relative luminance of
       (modeline-info    "#9fefff")
 
       (bg-tab-bar                  bg-main)
-      (bg-tab-current               bg-dim)
+      (bg-tab-current bg-mode-line-inactive)
       (bg-tab-other                bg-main)
 
 ;;; Diffs
