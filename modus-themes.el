@@ -3751,10 +3751,10 @@ FG and BG are the main colors."
     `(syslog-warn ((,c :inherit warning)))
 ;;;;; tab-bar-mode
     `(tab-bar ((,c :inherit modus-themes-ui-variable-pitch :background ,bg-tab-bar)))
-    `(tab-bar-tab-group-current ((,c :inherit bold :background ,bg-tab-current :box (:line-width -2 :color ,bg-tab-current) :foreground ,fg-alt)))
-    `(tab-bar-tab-group-inactive ((,c :background ,bg-tab-bar :box (:line-width -2 :color ,bg-tab-bar) :foreground ,fg-alt)))
+    `(tab-bar-tab-group-current ((,c :inherit bold :background ,bg-tab-current :foreground ,fg-alt)))
+    `(tab-bar-tab-group-inactive ((,c :background ,bg-tab-bar :foreground ,fg-alt)))
     `(tab-bar-tab ((,c :inherit bold :box '(:line-width (0 . -1) :color ,green :style nil) :background ,bg-tab-current :foreground ,green-cooler)))
-    `(tab-bar-tab-inactive ((,c :box (:line-width -2 :color ,bg-tab-other) :background ,bg-tab-other)))
+    `(tab-bar-tab-inactive ((,c :background ,bg-tab-other)))
     `(tab-bar-tab-ungrouped ((,c :inherit tab-bar-tab-inactive)))
 ;;;;; tab-line-mode
     `(tab-line ((,c :inherit modus-themes-ui-variable-pitch :background ,bg-tab-bar :height 0.95)))
