@@ -3783,7 +3783,7 @@ FG and BG are the main colors."
     `(telega-msg-inline-forward ((,c :background ,bg-main :foreground ,orange)))
     `(telega-root-heading ((,c :background ,bg-inactive)))
     `(telega-secret-title ((,c :foreground ,magenta-warmer)))
-    `(telega-unmuted-count ((,c :foreground ,blue-cooler)))
+    `(telega-unmuted-count ((,c :foreground ,orange)))
     `(telega-mention-count ((,c :inherit bold :foreground ,red-intense)))
     `(telega-muted-count ((,c :inherit bold :foreground ,green-faint)))
     `(telega-user-online-status ((,c :foreground ,cyan)))
