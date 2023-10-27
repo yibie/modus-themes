@@ -190,7 +190,7 @@ which corresponds to a minimum contrast in relative luminance of
       (bg-changed         "#f0e8bd")
       (bg-changed-faint   "#f5efcb")
       (bg-changed-refine  "#efd299")
-      (bg-changed-fringe  "#8f7a30")
+      (bg-changed-fringe  "#edce5f")
       (fg-changed         "#553d00")
       (fg-changed-intense "#c0b05f")
 
