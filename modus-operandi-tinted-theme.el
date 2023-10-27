@@ -273,10 +273,10 @@ which corresponds to a minimum contrast in relative luminance of
 
 ;;;; Completion mappings
 
-      (fg-completion-match-0 blue-cooler)
-      (fg-completion-match-1 magenta-warmer)
-      (fg-completion-match-2 cyan-cooler)
-      (fg-completion-match-3 yellow)
+      (fg-completion-match-0 cyan)
+      (fg-completion-match-1 red-warmer)
+      (fg-completion-match-2 magenta)
+      (fg-completion-match-3 cyan-cooler)
       (bg-completion-match-0 unspecified)
       (bg-completion-match-1 unspecified)
       (bg-completion-match-2 unspecified)
