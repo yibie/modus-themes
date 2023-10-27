@@ -4118,8 +4118,6 @@ FG and BG are the main colors."
         modus-themes-fg-magenta-intense
         modus-themes-fg-cyan-intense))
 ;;;; org-src-block-faces
-    (if (or (eq modus-themes-org-blocks 'tinted-background)
-            (eq modus-themes-org-blocks 'rainbow))
         `(org-src-block-faces
           `(("emacs-lisp" modus-themes-nuanced-magenta)
             ("elisp" modus-themes-nuanced-magenta)
@@ -4139,7 +4137,7 @@ FG and BG are the main colors."
             ("yaml" modus-themes-nuanced-cyan)
             ("conf" modus-themes-nuanced-cyan)
             ("docker" modus-themes-nuanced-cyan)))
-      `(org-src-block-faces '())))
+      `(org-src-block-faces '()))
   "Custom variables for `modus-themes-theme'.")
 
 ;;; Theme macros
