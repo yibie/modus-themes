@@ -614,46 +614,6 @@ and related user options."
 (make-obsolete-variable 'modus-themes-org-agenda nil "4.0.0")
 (make-obsolete-variable 'modus-themes-fringes nil "4.0.0")
 (make-obsolete-variable 'modus-themes-lang-checkers nil "4.0.0")
-
-(defcustom modus-themes-org-blocks nil
-  "Set the overall style of Org code blocks, quotes, and the like.
-
-Nil (the default) means that the block has no background of its
-own: it uses the one that applies to the rest of the buffer.  In
-this case, the delimiter lines have a gray color for their text,
-making them look exactly like all other Org properties.
-
-Option `gray-background' applies a subtle gray background to the
-block's contents.  It also affects the begin and end lines of the
-block as they get another shade of gray as their background,
-which differentiates them from the contents of the block.  All
-background colors extend to the edge of the window, giving the
-area a rectangular, \"blocky\" presentation.  If the begin/end
-lines do not extend in this way, check the value of the Org user
-option `org-fontify-whole-block-delimiter-line'.
-
-Option `tinted-background' uses a colored background for the
-contents of the block.  The exact color value will depend on the
-programming language and is controlled by the variable
-`org-src-block-faces' (refer to the theme's source code for the
-current association list).  For this to take effect, the Org
-buffer needs to be restarted with `org-mode-restart'.
-
-Code blocks use their major mode's fontification (syntax
-highlighting) only when the variable `org-src-fontify-natively'
-is non-nil.  While quote/verse blocks require setting
-`org-fontify-quote-and-verse-blocks' to a non-nil value."
-  :group 'modus-themes
-  :package-version '(modus-themes . "4.0.0")
-  :version "30.1"
-  :type '(choice
-          (const :format "[%v] %t\n" :tag "No Org block background (default)" nil)
-          (const :format "[%v] %t\n" :tag "Subtle gray block background" gray-background)
-          (const :format "[%v] %t\n" :tag "Color-coded background per programming language" tinted-background))
-  :set #'modus-themes--set-option
-  :initialize #'custom-initialize-default
-  :link '(info-link "(modus-themes) Org mode blocks"))
-
 (make-obsolete-variable 'modus-themes-mode-line nil "4.0.0")
 (make-obsolete-variable 'modus-themes-diffs nil "4.0.0")
 
@@ -1580,16 +1540,6 @@ Optional OL is the color of an overline."
                       (modus-themes--property-lookup properties 'height #'floatp 'unspecified)
                     'unspecified)
           :weight (or weight 'unspecified))))
-
-(defun modus-themes--org-block (fg bg)
-  "Conditionally set the FG and BG of Org blocks."
-  (let ((gray (or (eq modus-themes-org-blocks 'gray-background)
-                  (eq modus-themes-org-blocks 'grayscale) ; for backward compatibility
-                  (eq modus-themes-org-blocks 'greyscale))))
-    (list :inherit 'modus-themes-fixed-pitch
-          :background (if gray bg 'unspecified)
-          :foreground (if gray 'unspecified fg)
-          :extend (if gray t 'unspecified))))
 
 (defun modus-themes--completion-line (bg)
   "Styles for `modus-themes-completions' with BG as the background."
