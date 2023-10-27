@@ -180,26 +180,25 @@ which corresponds to a minimum contrast in relative luminance of
       (bg-tab-other       bg-main)
 
 ;;; Diffs
-
-      (bg-added           "#003a2f")
-      (bg-added-faint     "#002922")
-      (bg-added-refine    "#035542")
+      (bg-added           "#c9ffda")
+      (bg-added-faint     "#d7ffe5")
+      (bg-added-refine    "#b3efcf")
       (bg-added-fringe    "#23884f")
-      (fg-added           "#a0e0a0")
+      (fg-added           "#005000")
       (fg-added-intense   "#80e080")
 
-      (bg-changed         "#363300")
-      (bg-changed-faint   "#2a1f00")
-      (bg-changed-refine  "#4a4a00")
+      (bg-changed         "#f0e8bd")
+      (bg-changed-faint   "#f5efcb")
+      (bg-changed-refine  "#efd299")
       (bg-changed-fringe  "#8f7a30")
-      (fg-changed         "#efef80")
+      (fg-changed         "#553d00")
       (fg-changed-intense "#c0b05f")
 
-      (bg-removed         "#4f1127")
-      (bg-removed-faint   "#380a19")
-      (bg-removed-refine  "#781a3a")
+      (bg-removed         "#ffd6e0")
+      (bg-removed-faint   "#ffe9e6")
+      (bg-removed-refine  "#f5bfc8")
       (bg-removed-fringe  "#b81a26")
-      (fg-removed         "#ffbfbf")
+      (fg-removed         "#8f1313")
       (fg-removed-intense "#ff9095")
 
       (bg-diff-context    "#1a1f30")
