@@ -2222,6 +2222,10 @@ FG and BG are the main colors."
 ;;;;; display-fill-column-indicator-mode
     `(fill-column-indicator ((,c :height 1 :background ,bg-active :foreground ,bg-active)))
     `(meow-normal-indicator ((,c :background ,olive :foreground ,fg-main)))
+    `(meow-insert-indicator ((,c :background ,rust :foreground ,fg-main)))
+    `(meow-keypad-indicator ((,c :background ,slate :foreground ,fg-main)))
+    `(meow-beacon-indicator ((,c :background ,pink :foreground ,fg-main)))
+    `(meow-motion-indicator ((,c :background ,indigo :foreground ,fg-main)))
 ;;;;; doom-modeline
     `(doom-modeline-bar ((,c :background ,magenta-warmer)))
     `(doom-modeline-bar-inactive ((,c :background ,border)))
