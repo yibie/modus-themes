@@ -105,13 +105,13 @@ which corresponds to a minimum contrast in relative luminance of
 
 ;;; Uncommon accent foregrounds
 
-      (rust       "#8a290f")
-      (gold       "#80601f")
-      (olive      "#56692d")
-      (slate      "#2f3f83")
-      (indigo     "#4a3a8a")
-      (maroon     "#731c52")
-      (pink       "#7b435c")
+      (rust       "#db7b5f")
+      (gold       "#c0965b")
+      (olive      "#9cbd6f")
+      (slate      "#76afbf")
+      (indigo     "#9099d9")
+      (maroon     "#cf7fa7")
+      (pink       "#d09dc0")
 
 ;;; Common accent backgrounds
 
