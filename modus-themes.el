@@ -2222,11 +2222,11 @@ FG and BG are the main colors."
 ;;;;; display-fill-column-indicator-mode
     `(fill-column-indicator ((,c :height 1 :background ,bg-active :foreground ,bg-active)))
 ;;;;; meow    
-    `(meow-normal-indicator ((,c :inherit bold :background ,olive :foreground ,fg-term-white-bright)))
-    `(meow-insert-indicator ((,c :inherit bold :background ,rust :foreground ,fg-term-white-bright)))
-    `(meow-keypad-indicator ((,c :inherit bold :background ,slate :foreground ,fg-term-white-bright)))
-    `(meow-beacon-indicator ((,c :inherit bold :background ,pink :foreground ,fg-term-white-bright)))
-    `(meow-motion-indicator ((,c :inherit bold :background ,indigo :foreground ,fg-term-white-bright)))
+    `(meow-normal-indicator ((,c :inherit bold :background ,olive :foreground ,fg-main)))
+    `(meow-insert-indicator ((,c :inherit bold :background ,rust :foreground ,fg-main)))
+    `(meow-keypad-indicator ((,c :inherit bold :background ,slate :foreground ,fg-main)))
+    `(meow-beacon-indicator ((,c :inherit bold :background ,pink :foreground ,fg-main)))
+    `(meow-motion-indicator ((,c :inherit bold :background ,indigo :foreground ,fg-main)))
 ;;;;; doom-modeline
     `(doom-modeline-bar ((,c :background ,magenta-warmer)))
     `(doom-modeline-bar-inactive ((,c :background ,border)))
