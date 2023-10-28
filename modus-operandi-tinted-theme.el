@@ -159,7 +159,7 @@ which corresponds to a minimum contrast in relative luminance of
       (bg-hl-line         "#f9e0e5")
       (bg-region          "#d0e6ff")
       (fg-region             fg-main)
-      (fg-comment          "#D7C4BB")
+      (fg-comment          "#808F7C")
 
       (bg-char-0 "#7feaff")
       (bg-char-1 "#ffaaff")
