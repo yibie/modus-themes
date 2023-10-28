@@ -70,6 +70,7 @@ which corresponds to a minimum contrast in relative luminance of
 
 ;;; Common accent foregrounds
 
+      (orange          "#FFB11B")
       (red             "#ff5f59")
       (red-warmer      "#ff6b55")
       (red-cooler      "#ff7f9f")
@@ -77,15 +78,14 @@ which corresponds to a minimum contrast in relative luminance of
       (red-intense     "#ff5f5f")
       (green           "#44bc44")
       (green-warmer    "#70b900")
-      (green-cooler    "#62cd92")
+      (green-cooler    "#00c06f")
       (green-faint     "#88ca9f")
       (green-intense   "#44df44")
       (yellow          "#d0bc00")
       (yellow-warmer   "#fec43f")
       (yellow-cooler   "#dfaf7a")
       (yellow-faint    "#d2b580")
-      (yellow-intense  "#ffe252")
-      (orange          "#FFB11B")
+      (yellow-intense  "#efef00")
       (blue            "#2fafff")
       (blue-warmer     "#79a8ff")
       (blue-cooler     "#00bcff")
