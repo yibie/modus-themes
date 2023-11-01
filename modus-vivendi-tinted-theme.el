@@ -106,7 +106,7 @@ which corresponds to a minimum contrast in relative luminance of
 
       (rust       "#db7b5f")
       (gold       "#c0965b")
-      (olive      "#add17b")
+      (olive      "#9cbd6f")
       (slate      "#76afbf")
       (indigo     "#9099d9")
       (maroon     "#cf7fa7")
