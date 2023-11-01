@@ -106,7 +106,7 @@ which corresponds to a minimum contrast in relative luminance of
 ;;; Uncommon accent foregrounds
 
       (rust       "#B54434")
-      (gold       "#CA7A2C")
+      (gold       "#E2943B")
       (olive      "#7BA23F")
       (slate      "#4E4F97")
       (indigo     "#77428D")
