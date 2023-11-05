@@ -417,14 +417,14 @@ which corresponds to a minimum contrast in relative luminance of
 
 ;;;; Heading mappings
 
-      (fg-heading-0 red-cooler)
-      (fg-heading-1 red-faint)
-      (fg-heading-2 magenta-faint)
-      (fg-heading-3 blue-faint)
-      (fg-heading-4 magenta)
-      (fg-heading-5 green-faint)
-      (fg-heading-6 yellow-faint)
-      (fg-heading-7 cyan-faint)
+      (fg-heading-0 "#a626a4")
+      (fg-heading-1 "#e45649")
+      (fg-heading-2 "#da8548")
+      (fg-heading-3 "#b751b6")
+      (fg-heading-4 "#6f99f5")
+      (fg-heading-5 "#bc5cba")
+      (fg-heading-6 "#9fbbf8")
+      (fg-heading-7 "#d292d1")
       (fg-heading-8 fg-dim)
 
       (bg-heading-0 unspecified)
