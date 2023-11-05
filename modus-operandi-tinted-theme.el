@@ -425,7 +425,7 @@ which corresponds to a minimum contrast in relative luminance of
       (fg-heading-5 "#bc5cba")
       (fg-heading-6 "#9fbbf8")
       (fg-heading-7 "#d292d1")
-      (fg-heading-8 fg-dim)
+      (fg-heading-8 "#d8e4fc")
 
       (bg-heading-0 unspecified)
       (bg-heading-1 unspecified)
