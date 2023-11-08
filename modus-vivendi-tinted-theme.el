@@ -152,7 +152,7 @@ which corresponds to a minimum contrast in relative luminance of
 ;;; Special purpose
 
       (bg-completion       "#2f4144")
-      (bg-hover            bg-main)
+      (bg-hover              bg-main)
       (bg-hover-secondary  "#aa759f")
       (bg-hl-line      bg-completion)
       (bg-region       bg-completion)
