@@ -3055,7 +3055,7 @@ FG and BG are the main colors."
     `(mode-line-active ((,c :inherit mode-line)))
     `(mode-line-buffer-id ((,c :inherit bold)))
     `(mode-line-emphasis ((,c :inherit bold :foreground ,modeline-info)))
-    `(mode-line-highlight ((,c :background ,bg-hover :foreground ,fg-main :box ,fg-main)))
+    `(mode-line-highlight ((,c :background ,bg-hover :foreground ,fg-main)))
     `(mode-line-inactive ((,c :inherit modus-themes-ui-variable-pitch
                               :box ,border-mode-line-inactive
                               :background ,bg-mode-line-inactive
