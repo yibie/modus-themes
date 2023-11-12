@@ -166,7 +166,7 @@ which corresponds to a minimum contrast in relative luminance of
       (bg-mode-line-active        "#131B1C")
       (fg-mode-line-active        fg-main)
       (border-mode-line-active    "#979797")
-      (bg-mode-line-inactive      "#465D4C")
+      (bg-mode-line-inactive      "#344138")
       (fg-mode-line-inactive      "#969696")
       (border-mode-line-inactive  "#606270")
 
