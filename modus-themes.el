@@ -2094,7 +2094,7 @@ FG and BG are the main colors."
     `(custom-changed ((,c :background ,bg-changed)))
     `(custom-comment ((,c :inherit shadow)))
     `(custom-comment-tag ((,c :inherit (bold shadow))))
-    `(custom-invalid ((,c :inherit error :strike-through t)))
+    `(custom-invalid ((,c :inherit error)))
     `(custom-modified ((,c :inherit custom-changed)))
     `(custom-rogue ((,c :inherit custom-invalid)))
     `(custom-set ((,c :inherit success)))
