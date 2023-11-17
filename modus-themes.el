@@ -1722,7 +1722,7 @@ FG and BG are the main colors."
     `(confusingly-reordered ((,c :inherit modus-themes-lang-error)))
     `(edmacro-label ((,c :inherit bold :foreground ,accent-0)))
     `(elisp-shorthand-font-lock-face ((,c :inherit font-lock-variable-name-face)))
-    `(error ((,c :inherit bold :background ,err)))
+    `(error ((,c :inherit bold :foreground ,err)))
     `(escape-glyph ((,c :foreground ,err)))
     `(file-name-shadow ((,c :inherit shadow)))
     `(header-line ((,c :inherit modus-themes-ui-variable-pitch :background ,bg-dim)))
