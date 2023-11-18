@@ -226,7 +226,7 @@ which corresponds to a minimum contrast in relative luminance of
       (name magenta)
       (identifier yellow-faint)
 
-      (err red)
+      (err red-cooler)
       (warning yellow-warmer)
       (info cyan-cooler)
 
