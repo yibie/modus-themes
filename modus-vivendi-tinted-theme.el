@@ -346,7 +346,7 @@ which corresponds to a minimum contrast in relative luminance of
 
       (prose-block fg-dim)
       (prose-code cyan-cooler)
-      (prose-done green)
+      (prose-done green-intense)
       (prose-macro magenta-cooler)
       (prose-metadata fg-dim)
       (prose-metadata-value fg-alt)
