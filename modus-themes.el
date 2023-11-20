@@ -3733,7 +3733,7 @@ FG and BG are the main colors."
     `(telega-entity-type-blockquote ((,c :inherit italic :foreground ,fg-comment)))
     `(telega-entity-type-pre ((,c :inherit modus-themes-prose-code)))
     `(telega-entity-type-spoiler ((,c :background ,fg-main :foreground ,fg-main)))
-    `(telega-msg-heading ((,c :background ,bg-inactive)))
+    `(telega-msg-heading ((,c :background ,bg-inactive :underline t)))
     `(telega-msg-self-title ((,c :inherit (bold italic) :foreground ,gold :italic t)))
     `(telega-msg-user-title ((,c :inherit italic)))
     `(telega-msg-inline-reply ((,c :background ,bg-main :foreground ,olive)))
