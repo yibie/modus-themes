@@ -70,7 +70,7 @@ which corresponds to a minimum contrast in relative luminance of
 
 ;;; Common accent foregrounds
 
-      (red             "#ff5f59")
+      (red             "#ff443d")
       (red-warmer      "#ff6b55")
       (red-cooler      "#ff7f9f")
       (red-faint       "#ff9f80")
